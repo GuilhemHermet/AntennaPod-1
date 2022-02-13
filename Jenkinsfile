@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh """
-                    ./gradlew clean build
+                    ./gradlew clean test
                 """
             }
         }
